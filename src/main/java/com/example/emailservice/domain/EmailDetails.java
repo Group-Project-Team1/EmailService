@@ -1,4 +1,4 @@
-package com.example.emailservice;
+package com.example.emailservice.domain;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

@@ -1,5 +1,7 @@
-package com.example.emailservice;
+package com.example.emailservice.service;
 
+import com.example.emailservice.domain.EmailDetails;
+import com.example.emailservice.service.EmailService;
 import org.springframework.amqp.core.Message;
 import org.springframework.amqp.core.MessageListener;
 import org.springframework.beans.factory.annotation.Autowired;

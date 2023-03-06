@@ -1,5 +1,6 @@
-package com.example.emailservice;
+package com.example.emailservice.config;
 
+import com.example.emailservice.service.RabbitListener;
 import org.springframework.amqp.core.Queue;
 import org.springframework.amqp.core.QueueBuilder;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
